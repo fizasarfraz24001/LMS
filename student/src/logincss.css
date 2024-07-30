@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Lobster&family=Oswald:wght@500&family=Roboto&display=swap');
+#log{
+ background: url(./sa.png);
+    background-repeat: no-repeat,no-repeat;
+
+background-size: contain;
+  overflow-x: hidden;
+  background-attachment: fixed;
+}
+
+.login h1 {
+font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+   text-align: center;
+   color: #000033;
+   
+}
+ 
+
+ h1{
+    font-family: 'Oswald', sans-serif;
+}
+.login {
+    border-radius: 6px;
+}
+
+
+form{
+    height: 400px;
+  
+}
+form .loginbtn{
+    color: #010002;
+   font-size: 20px;
+ background-color: #F8F7FA;
+   text-transform: uppercase;
+   border:2px solid lightgray;
+}
+form .fact{
+  padding-top: 2px;
+    color: #990000;
+font-weight: bold;
+    text-shadow:2px  black;
+font-family: 'Lobster', cursive;
+    font-size: 25px;
+    text-align: center;
+}
+form label{
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+}
+#borderRad{
+    border:2px solid rgb(189, 183, 183);
+    border-radius: 10px  40px 10px 40px;
+}/*
+font-family: 'Creepster', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+ */

@@ -1,0 +1,199 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Lobster&family=Oswald:wght@500&family=Roboto&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Oswald', sans-serif;
+}
+
+.sidebar {
+  overflow-y: auto;
+  font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 240px;
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+font-size: 20px;
+}
+
+.sidebar .a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  transition: background-color 0.5s ease;
+}
+
+.sidebar .a:hover {
+  background-color: #555;
+}
+
+.main-content {
+  margin-left: 240px;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+
+
+.fa{
+  padding-right: 5px;
+}
+/*HEADER CSS CODE */
+#heads{
+  background-color: black;
+  height: auto;
+}
+
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+li {
+  display: inline;
+}
+li a{
+  text-decoration: none;
+  font-size: 20px;
+padding: 10px;
+font-weight: bold;
+
+color:white;
+}
+li a:hover{
+  background-color: #394247;
+ 
+  color: white;
+}
+ul,li.i{
+  font-size: 20px;
+  color: blue;
+}
+.ii{
+  padding-right: 5px;
+}
+li Link:active{
+color: white;
+background-color: white;
+}
+li Link:link{
+color:rgb(192,192,192); /*unvisited link */
+}
+li Link:visited{
+color: rgb(255, 255, 255); /* visited link*/
+}
+/* /////////////////////////////////////////////FORM CODE //////////////////////////*/
+.colos{
+  border: 1px solid black;
+ border-radius: 0px 45px 0px 45px;
+ background-color: white;
+ margin: 30px;
+ height: auto;
+
+}
+
+body{
+    background-color: rgba(211,211,211,0.4);
+}
+
+#h11{
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+
+}
+
+#insertedphp label{
+ font-family: 'Oswald', sans-serif;
+}
+#submits{
+ margin: 10px;
+}
+#submits i:fa{
+ padding-right: 10px;
+ padding-left: 10px;
+ background-color: darkgray;
+}
+.label{
+ padding-bottom: 10px;
+
+}
+.input{
+ margin: 5px;
+}
+.card-header{
+ background-color: #E7E9EB;
+ font-family: 'Oswald', sans-serif;
+}
+/* ////////////////////////////////////DISPLAY TABLE ////////////*/
+.hcgwbo{
+  font-size: 14px;
+}
+.K{
+  padding-right: 170px;
+}
+/*//////////////DASHBOARD*/
+#headbar{
+  font-family: 'Oswald', sans-serif;
+  text-transform: capitalize;
+  background-image: linear-gradient(to left,rgb(23, 0, 128) , Purple );
+  
+  
+  }
+  /* now start dashboard codeing*/
+  .DashB{
+    text-align: center;
+    height: 150px;
+    width: 250px;
+    display: inline-block;
+    margin-left: 50px;
+  }
+  .DashB i.fa{
+    margin-top: 10px;
+    color: rgb(183,173,231);
+    margin-left: 10px;
+    border: none;
+    font-size: 70px;
+    margin-bottom: 15px;
+  }
+  .DashB i.fas{
+    margin-top: 10px;
+    color: rgb(183,173,231);
+    margin-left: 10px;
+    border: none;
+    font-size: 70px;
+    margin-bottom: 15px;
+  }
+  .DashB i.cols{
+    color: darkblue;
+  }
+  
+  .DashB a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    
+  }
+  .DashB a:hover{
+  color: darkblue;
+  
+  }
+  .DashB{
+    background-color: white;
+    margin:5px;
+}
+@media screen and (min-width: 380px) {
+  .X1 {
+  
+    padding-left:80px;
+    margin: 10px;
+  }
+}
